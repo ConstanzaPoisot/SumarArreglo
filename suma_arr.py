@@ -4,12 +4,12 @@ def sum(arr):
     for i in arr:
         sum=sum+i
     return (sum)
-arr=[]
+arreglo=[]
 
-arr=[30,29,4,68]
+arreglo=[30,29,4,68]
 
-n=len(arr)
+n=len(arreglo)
 
-ans=sum(arr)
+ans=sum(arreglo)
 
 print("La suma del arreglo es: ", ans)
